@@ -6,6 +6,16 @@ Proyecto de entrega de alimentos y bebidas desarrollado con las siguientes tecno
 
 
 ## Backend
+- Java 1.8
+	- Spring boot framework
+##### to run backend project
+```
+gradle bootRun -x test
+```
+#### to consume default service
+http://localhost:8080/greeting
+#### or
+http://localhost:8080/greeting?name=yourname
 
 
 ## Database
